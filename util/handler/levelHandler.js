@@ -9,8 +9,5 @@ export default async function loadLevel(level) {
   await loadDoc(scenePath);
 };
 
-export function loadVictoryScenre() {
-  $("#scene").empty();
-  $("#scene").append(loadDoc("../../components/VictoryScreen.html"));
-}
+
 

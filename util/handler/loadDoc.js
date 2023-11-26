@@ -13,7 +13,6 @@ export async function loadDoc(page, parent = "#game") {
 
 export function loadVictoryScene() {
   $("#scene").empty();
-  $("#scene").append(loadDoc("../../components/VictoryScreen.html"));
 }
 
 export function getScenePath(level) {
